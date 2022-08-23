@@ -1,0 +1,65 @@
+.glow-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0;
+
+    width: 212px;
+    height: 55px;
+
+    background: linear-gradient(90deg, #00E094 0%, #00BDB5 100%);
+    box-shadow: 0px 0px 16px rgba(0, 224, 148, 0.6);
+    border-radius: 4px;
+}
+
+.border-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    
+    color: white;
+
+    width: 270px;
+    height: 55px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+.custom-select {
+outline: none;
+}
+.custom-select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    width: 212px;
+    background-color: black;
+    border-radius: 4px;
+    border-color: white;
+}
+.dropdown-item {
+    background-color: black;
+    color: white;
+    height: 55px;
+    display: flex;
+    align-items:center;
+    justify-content:start;
+}
+.dropdown-item:focus {
+    background: linear-gradient(90deg, #00E094 0%, #00BDB5 100%);
+    box-shadow: 0px 0px 16px rgba(0, 224, 148, 0.6);
+}
+.dropdown-item:hover {
+    background: linear-gradient(90deg, #00E094 0%, #00BDB5 100%);
+    box-shadow: 0px 0px 16px rgba(0, 224, 148, 0.6);
+}

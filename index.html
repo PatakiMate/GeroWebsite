@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f0f0f" media="(prefers-color-scheme: dark)">
+    <title>Gero Wallet</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/saiba-logos/SaibaColoredIcon.png">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="scripts/navbar.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hamburger-menu.css">
+    <link rel="stylesheet" href="style/home-page.css">
+    <link rel="stylesheet" href="style/buttons.css">
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="200">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top navbarColor">
+        <div class="container-fluid px-xl-5">
+            <!-- Navbar logo part -->
+            <a class="navbar-brand" href="#">
+                <img class="navbar-logo" src="assets/images/GeroLogo.png">
+            </a>
+            <!-- Desktop navbar -->
+            <div class="navbar-collapse" id="main_nav" data-target="#myNavbar">
+                <div class="container" id="header-top">
+                    <!-- Navbar part -->
+                    <ul class="navbar-nav mx-xl-auto" id="myNavbar">
+                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#Home"> Intro </a></li>
+                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#About"> About the
+                                Collection </a></li>
+                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#Utility"> Utility </a></li>
+                    </ul>
+                    <!-- Social part -->
+                    <div class="row d-flex ms-auto order-5">
+                        <a class="glow-button navbarText" href="#">Connect wallet</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile navbar -->
+            <div class="navbar-toggler menu-btn" style="border-color: transparent; background-color: transparent;"
+                data-trigger="#main_nav">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </div>
+        <!-- Navbar scripts -->
+        <script src="scripts/header-changer.js"></script>
+        <script src="scripts/hamburger-menu.js"></script>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="background-hero" id="Home">
+        <div class="background-wave">
+        </div>
+        <div class="container px-3 vh-100">
+            <div class="mobile-only" style="height: 40px;"></div>
+            <div class="row m-0 align-items-center justify-content-xl-start vh-100">
+                <div class="col-lg-12 col-xl-7">
+                    <div class="text-xl-left text-lg-center">
+                        <h1> Introducing the first NFT drop for GeroWallet!</h1>
+                        <p class="pt-1">We have created one-of-a-kind collectibles to celebrate the event. Right
+                            now you can mint an NFT for free with your GeroWallet, or purchase NFTs from the premium
+                            collection on offer.</p>
+                        <div class="row mx-0 pt-3">
+                            <div class="dropdown">
+                                <button class="glow-button navbarText mb-4 mb-md-0 mr-4 dropdown-toggle custom-select"
+                                    type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Purchase NFT
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item navbarText" href="#">Purchase 1</a>
+                                    <a class="dropdown-item navbarText" href="#">Purchase 3</a>
+                                    <a class="dropdown-item navbarText" href="#">Purchase 5</a>
+                                    <a class="dropdown-item navbarText" href="#">Purchase 10</a>
+                                </div>
+                            </div>
+                            <a class="border-button navbarText" href="#">Purchasing tutorial</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class=" col-xl-5 desktop-only">
+                    <img src="assets/images/gero_01B.png" class="illustration" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards section -->
+
+    <div class="background-about" id="About">
+        <div class="container px-3">
+            <div class="container" style="height: 10em;"></div>
+            <div class="col m-0 align-items-center justify-content-xl-start h-100">
+                <div class="row text-center align-items-center">
+                    <div class="col-xl-6 container">
+                        <h2 style="text-align: start;">About the collection</h2>
+                        <div class="container" style="height: 1.5em;"></div>
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                            graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+                            century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for
+                            use in a type specimen book. It usually begins with:</p>
+                    </div>
+                    <div class="col-xl-6 container">
+                        <img src="assets/images/gero_02.png" style="max-width: 100%;" alt="">
+                    </div>
+                </div>
+                <div class="row text-center align-items-center">
+                    <div class="col-xl-6 container desktop-only">
+                        <img src="assets/images/gero_03.png" style="max-width: 100%;" alt="">
+                    </div>
+                    <div class="col-xl-6 container">
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                            graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+                            century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for
+                            use in a type specimen book. It usually begins with:</p>
+                    </div>
+                    <div class="col-xl-6 container mobile-only">
+                        <img src="assets/images/gero_03.png" style="max-width: 100%;" alt="">
+                    </div>
+                </div>
+                <div class="row text-center align-items-center">
+                    <div class="col-xl-6 container">
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                            graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+                            century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for
+                            use in a type specimen book. It usually begins with:</p>
+                    </div>
+                    <div class="col-xl-6 container">
+                        <img src="assets/images/gero_04.png" style="max-width: 100%;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div class="background-utility" id="Utility">
+        <div class="container px-3">
+            <div class="col m-0 align-items-start justify-content-xl-start h-100">
+                <div class="container" style="height: 10em;"></div>
+                <h2 style="text-align: start;">Utility</h2>
+                <div class="container" style="height: 3em;"></div>
+                <div class="row text-center align-items-start">
+                    <div class="col-xl-6 container">
+                        <img src="assets/images/gero_05.png" style="max-width: 100%;" class="" alt="">
+                        <div class="container" style="height: 3em;"></div>
+                    </div>
+                    <div class="col-xl-6 container">
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                            graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+                            century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for
+                            use in a type specimen book. It usually begins with:</p>
+                        <div class="container" style="height: 1.5em;"></div>
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+                            graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+                            century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for
+                            use in a type specimen book. It usually begins with:</p>
+                        <div class="container" style="height: 3em;"></div>
+                        <div class="row mx-0 pt-3">
+                            <div class="dropdown">
+                                <button class="glow-button navbarText mb-4 mb-md-0 mr-4 dropdown-toggle  custom-select"
+                                    type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Purchase NFT
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item navbarText" href="#">Purchase 1</a>
+                                    <a class="dropdown-item navbarText" href="#">Purchase 3</a>
+                                    <a class="dropdown-item navbarText" href="#">Purchase 5</a>
+                                    <a class="dropdown-item navbarText" href="#">Purchase 10</a>
+                                </div>
+                            </div>
+                            <a class="border-button navbarText" href="#">Purchasing tutorial</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="background-footer" id="Footer">
+        <div class="container px-3">
+            <div class="col m-0 align-items-center justify-content-xl-start h-100">
+                <div class="container" style="height: 200px;"></div>
+                <img src="assets/images/GeroIcon.png" alt="">
+                <div class="container" style="height: 1.5em;"></div>
+                <p class="p-footer">Our teams urge everyone to be responsible. Please do not spend money you need for
+                    bills or taking care of loved ones.<br> Please do not take out loans or borrow money to mint.</p>
+                <div class="container" style="height: 1.5em;"></div>
+                <div class="row align-items-center justify-content-center">
+                    <a href="" class="px-2">
+                        <img src="assets/images/social-logos/Medium.png" alt="">
+                    </a>
+                    <a href="" class="px-2">
+                        <img src="assets/images/social-logos/Telegram.png" alt="">
+                    </a>
+                    <a href="" class="px-2">
+                        <img src="assets/images/social-logos/Twitter.png" alt="">
+                    </a>
+                </div>
+                <div class="container" style="height: 200px;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts/scroll.js"></script>
+</body>
+
+</html>

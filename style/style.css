@@ -1,0 +1,280 @@
+html {
+    /*scroll-behavior: smooth;*/
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+a:hover {color:white; text-decoration: none;}
+
+.navbar .navbar-nav .nav-link:hover { 
+    text-decoration: underline;
+    color: white;
+}
+.navbar .navbar-nav .nav-link:focus { 
+    text-decoration: underline;
+    color: white;
+}
+.nav-link.active{
+    text-decoration: underline;
+    color: white;
+}
+.navbar .navbar-nav .nav-link {
+    padding-left: 50px; 
+    padding-right: 50px; 
+    color: white;
+}
+
+.utility-image {
+    position:absolute;
+}
+
+.bg {
+    /* The image used */
+    background-color: rgb(15, 15, 15);
+    /*background-image: url("assets/background.jpg");*/
+
+    /* Full height */
+    height: 100%;
+    position: relative;
+    text-align: center;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: transparent; 
+    height: 120px;
+}
+.social-icon-header {
+    padding-right: 10px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbarText {
+    font-size: 24px;
+    font-family: rajdhani;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: azonix;
+    src: url(/assets/fonts/Azonix.otf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(/assets/fonts/Raleway-Medium.otf);
+}
+
+@font-face {
+    font-family: raleway-medium;
+    src: url(/assets/fonts/Raleway-Light.otf);
+}
+@font-face {
+    font-family: rajdhani-bold;
+    src: url(/assets/fonts/Rajdhani-Bold.ttf);
+}
+@font-face {
+    font-family: rajdhani;
+    src: url(/assets/fonts/Rajdhani-Regular.ttf);
+}
+
+
+.container {
+    height: 100%;
+    display: table;
+    width: 100%;
+
+    /*set left/right padding according to needs*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body.offcanvas-active {
+    overflow: hidden;
+}
+
+.offcanvas-header {
+    display: none;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: rajdhani-bold;
+    font-weight: 700;
+    color: white;
+}
+
+h3 {
+    font-size: 100px;
+    font-family: azonix;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 40px; 
+    font-family: rajdhani-bold;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    font-family: rajdhani;
+    font-size: 22px;
+    text-align: start;
+}
+
+.min-full {
+    min-height: 100%;
+}
+
+.p-footer {
+color: #929292;
+font-size: 16px;
+text-align: center;
+}
+
+.grad-text {
+    background: #AA3535;
+    background: -webkit-linear-gradient(to right, #AA3535, #09bbd3);
+    background: -moz-linear-gradient(to right, #AA3535, #09bbd3);
+    background: linear-gradient(to right, #AA3535, #09bbd3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grad-text2 {
+    background: linear-gradient(to right, #AA3535, #09bbd3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.mobile-only {
+display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+.illustration {
+    width: 557px; height: 632px; transform: translateY(-50px);
+}
+
+@media (max-width: 1280px) {
+    .illustration {
+        max-width: 100%;
+        transform: translateY(0px);
+        height: 400px;
+       object-fit:contain;
+    }
+}
+@media (max-width: 1199.98px) {
+    .offcanvas-header {
+        display: block;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: rajdhani-bold;
+        font-weight: 700;
+        text-align: start;
+        color: white;
+    }
+
+    h3 {
+        font-size: 60px;
+        font-family: azonix;
+        color: white;
+    }
+    .navbar .navbar-nav .nav-link {
+        padding-left: 0px; 
+        padding-right: 0px; 
+    }
+
+    .navbar-logo {
+    width: 147.75px;
+    height: 38.25px;
+    }
+    .navbar {
+        height: 75px;
+    }
+    .mobile-only {
+        display:block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+    
+
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        width: 80%;
+        padding-top: 100px;
+        padding-right: 1rem;
+        padding-left: 3rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: black;
+        transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+
+    .mint-button {
+        visibility: hidden;
+    }
+}
+@media (min-height: 1024px) and (max-width: 1199.98px) ,(orientation: landscape) and (max-width: 1199.98px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        width: 40%;
+        padding-top: 100px;
+        padding-right: 1rem;
+        padding-left: 3rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: black;
+        transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+    }
+}
