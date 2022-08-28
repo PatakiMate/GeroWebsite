@@ -203,6 +203,12 @@ p {
     height: 400px;
     object-fit: contain;
 }
+.navbar-logo {
+    max-height: 100%;
+}
+.mobile-logo-holder {
+    height: 50px;
+}
 
 @media (min-width: 1200px) {
     .illustration {
@@ -254,10 +260,7 @@ p {
         padding-right: 0px;
     }
 
-    .navbar-logo {
-        height:50px;
-        image-rendering:crisp-edges;
-    }
+    
     /*.navbar-logo {
         width: 147.75px;
         height: 38.25px;
