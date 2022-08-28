@@ -206,6 +206,9 @@ p {
 .mobile-logo-holder {
     height: 50px;
 }
+.navbar-logo {
+    max-height: 100%;
+}
 
 @media (min-width: 1200px) {
     .illustration {
