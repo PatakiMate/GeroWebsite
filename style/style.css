@@ -9,28 +9,35 @@ body {
     height: 100vh;
     margin: 0;
 }
-a:hover {color:white; text-decoration: none;}
 
-.navbar .navbar-nav .nav-link:hover { 
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-link:hover {
     text-decoration: underline;
     color: white;
 }
-.navbar .navbar-nav .nav-link:focus { 
+
+.navbar .navbar-nav .nav-link:focus {
     text-decoration: underline;
     color: white;
 }
-.nav-link.active{
+
+.nav-link.active {
     text-decoration: underline;
     color: white;
 }
+
 .navbar .navbar-nav .nav-link {
-    padding-left: 50px; 
-    padding-right: 50px; 
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
 }
 
 .utility-image {
-    position:absolute;
+    position: absolute;
 }
 
 .bg {
@@ -50,10 +57,12 @@ a:hover {color:white; text-decoration: none;}
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.navbar{
-    background-color: transparent; 
+
+.navbar {
+    background-color: transparent;
     height: 120px;
 }
+
 .social-icon-header {
     padding-right: 10px;
 }
@@ -86,10 +95,12 @@ a:hover {color:white; text-decoration: none;}
     font-family: raleway-medium;
     src: url(/assets/fonts/Raleway-Light.otf);
 }
+
 @font-face {
     font-family: rajdhani-bold;
     src: url(/assets/fonts/Rajdhani-Bold.ttf);
 }
+
 @font-face {
     font-family: rajdhani;
     src: url(/assets/fonts/Rajdhani-Regular.ttf);
@@ -105,6 +116,7 @@ a:hover {color:white; text-decoration: none;}
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body.offcanvas-active {
     overflow: hidden;
 }
@@ -137,7 +149,7 @@ h3 {
 
 h2 {
     color: white;
-    font-size: 40px; 
+    font-size: 40px;
     font-family: rajdhani-bold;
     font-weight: 700;
 }
@@ -155,9 +167,9 @@ p {
 }
 
 .p-footer {
-color: #929292;
-font-size: 16px;
-text-align: center;
+    color: #929292;
+    font-size: 16px;
+    text-align: center;
 }
 
 .grad-text {
@@ -176,25 +188,44 @@ text-align: center;
     -webkit-background-clip: text;
     background-clip: text;
 }
+
 .mobile-only {
-display: none;
+    display: none;
 }
 
 .desktop-only {
     display: block;
 }
+
 .illustration {
-    width: 557px; height: 632px; transform: translateY(-50px);
+    max-width: 100%;
+    transform: translateY(0px);
+    height: 400px;
+    object-fit: contain;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1200px) {
     .illustration {
-        max-width: 100%;
-        transform: translateY(0px);
-        height: 400px;
-       object-fit:contain;
+        max-width: none;
+        transform: translateY(-20px);
+        height: 450px;
+        object-fit: contain;
     }
 }
+
+@media (min-width: 1280px) and (min-height: 900px) {
+    .illustration {
+        max-width: none;
+        width: 557px;
+        height: 632px;
+        transform: translateY(-50px);
+    }
+}
+
+/*
+@media (max-width: 1280px) {
+  
+} */
 @media (max-width: 1199.98px) {
     .offcanvas-header {
         display: block;
@@ -217,26 +248,29 @@ display: none;
         font-family: azonix;
         color: white;
     }
+
     .navbar .navbar-nav .nav-link {
-        padding-left: 0px; 
-        padding-right: 0px; 
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .navbar-logo {
-    width: 147.75px;
-    height: 38.25px;
+        width: 147.75px;
+        height: 38.25px;
     }
+
     .navbar {
         height: 75px;
     }
+
     .mobile-only {
-        display:block;
+        display: block;
     }
 
     .desktop-only {
         display: none;
     }
-    
+
 
     .navbar-collapse {
         position: fixed;
@@ -262,7 +296,8 @@ display: none;
         visibility: hidden;
     }
 }
-@media (min-height: 1024px) and (max-width: 1199.98px) ,(orientation: landscape) and (max-width: 1199.98px) {
+
+@media (min-height: 1024px) and (max-width: 1199.98px), (orientation: landscape) and (max-width: 1199.98px) {
     .navbar-collapse {
         position: fixed;
         top: 0;
