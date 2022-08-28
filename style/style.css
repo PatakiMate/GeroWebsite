@@ -255,9 +255,13 @@ p {
     }
 
     .navbar-logo {
+        height:50px;
+        image-rendering:crisp-edges;
+    }
+    /*.navbar-logo {
         width: 147.75px;
         height: 38.25px;
-    }
+    }*/
 
     .navbar {
         height: 75px;
