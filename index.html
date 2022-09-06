@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0f0f0f" media="(prefers-color-scheme: dark)">
     <title>Gero Wallet</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/saiba-logos/SaibaColoredIcon.png">
+    <link rel="icon" type="image/x-icon" href="/assets/images/GeroFav.png">
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -43,9 +43,8 @@
                 <div class="container" id="header-top">
                     <!-- Navbar part -->
                     <ul class="navbar-nav mx-xl-auto" id="myNavbar">
-                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#Home"> Intro </a></li>
-                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#About"> About the
-                                Collection </a></li>
+                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#Intro"> Intro </a></li>
+                        <li class="nav-item btn-close navbarText"><a class="nav-link" href="#About"> About Us </a></li>
                         <li class="nav-item btn-close navbarText"><a class="nav-link" href="#Utility"> Utility </a></li>
                     </ul>
                     <!-- Social part -->
@@ -64,9 +63,8 @@
         <script src="scripts/header-changer.js"></script>
         <script src="scripts/hamburger-menu.js"></script>
     </nav>
-
-    <!-- Hero section -->
-    <div class="background-hero" id="Home">
+    <!-- Intro section -->
+    <div class="background-hero" id="Intro">
         <div class="background-wave">
         </div>
         <div class="container px-3 vh-100">
@@ -93,7 +91,11 @@
                                     <a class="dropdown-item navbarText" href="#">Purchase 10</a>
                                 </div>
                             </div>
-                            <a class="border-button navbarText" href="#">Purchasing tutorial</a>
+                            <div id="main_nav" data-target="#myNavbar">
+                                <div id="myNavbar">
+                                    <a class="border-button navbarText navbar" href="#Utility">Utility</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,17 +106,15 @@
             </div>
         </div>
     </div>
-
-    <!-- Cards section -->
-
+    <!-- About section -->
     <div class="background-about" id="About">
         <div class="container px-3">
-            <div class="container" style="height: 10em;"></div>
+            <div class="container" style="height: 150px;"></div>
             <div class="col m-0 align-items-center justify-content-xl-start h-100">
                 <div class="row text-center align-items-center">
                     <div class="col-xl-6 container">
-                        <h2 style="text-align: start;">About the collection</h2>
-                        <div class="container" style="height: 1.5em;"></div>
+                        <h2 style="text-align: start;">About Us</h2>
+                        <div class="container" style="height: 25px;"></div>
                         <p>Combining the strengths of the GeroWallet and bajuzki teams,
                             we give you a 2,500-piece collection that, in our opinion,
                             checks out all the boxes for unique, collectable,
@@ -155,24 +155,24 @@
             </div>
         </div>
     </div>
-
-    <!-- About section -->
+    <!-- Utility section -->
     <div class="background-utility" id="Utility">
         <div class="container px-3">
             <div class="col m-0 align-items-start justify-content-xl-start h-100">
-                <div class="container" style="height: 10em;"></div>
+                <div class="container" style="height: 150px;"></div>
                 <h2 style="text-align: start;">Utility</h2>
-                <div class="container" style="height: 3em;"></div>
+                <div class="container" style="height: 50px;"></div>
                 <div class="row text-center align-items-start">
                     <div class="col-xl-6 container">
-                        <img src="assets/images/gero_05.png" style="max-width: 100%;" class="" alt="">
-                        <div class="container" style="height: 3em;"></div>
+                        <img src="assets/images/gero_05.png" style="max-width: 100%;" class="mobile-only" alt="">
+                        <img src="assets/images/gero_05B.png" style="max-width: 100%;" class="desktop-only" alt="">
+                        <div class="container" style="height: 50px;"></div>
                     </div>
                     <div class="col-xl-6 container">
                         <p>With this collection, we wanted to bring a fresh perspective to the world of NFT
                             collaborations. We not only aim to bring our supporters unique and highly collectable NFTs
                             but also incorporate these into both bajuzki and GeroWallet ecosystems. </p>
-                        <div class="container" style="height: 1.5em;"></div>
+                        <div class="container" style="height: 25px;"></div>
                         <p>Soon your GeroWallet will stop just being the best place to trade and hold ADA - there’s a
                             new feature coming! It will enable you to stake your $GERO tokens on the Cardano blockchain
                             in a simple and efficient way. What’s more, owning GeroWallet x bajuzki NFTs will enable the
@@ -180,15 +180,15 @@
                             in an incubator in exchange for Mecha Eggs – the amount of which will depend on the rarity
                             of Mecha Stags and the duration of the lock. Mecha Eggs will undergo 4 stages of life and,
                             after reaching adulthood, they will yield extra staking rewards in form of $GERO tokens.</p>
-                        <div class="container" style="height: 1.5em;"></div>
+                        <div class="container" style="height: 25px;"></div>
                         <p>Try being among the lucky ones who will mint a Mecha Stag with a hidden Easter Egg of
                             community favourite Cardano NFT or Defi projects!</p>
-                        <div class="container" style="height: 1.5em;"></div>
+                        <div class="container" style="height: 25px;"></div>
                         <p>Bajuzki studio has been developing an NFT-utilising game, the Vampire Playground, for months.
                             In this action RPG, the Vampire Invasion holders will have access to the fantasy world of
                             Adalchia – with the owners of GeroWallet x bajuzki NFTs able to explore this exciting realm
                             on the back of their unique deer mounts! </p>
-                        <div class="container" style="height: 3em;"></div>
+                        <div class="container" style="height: 50px;"></div>
                         <div class="row mx-0 pt-3">
                             <div class="dropdown">
                                 <button class="glow-button navbarText mb-4 mb-md-0 mr-4 dropdown-toggle  custom-select"
@@ -203,7 +203,6 @@
                                     <a class="dropdown-item navbarText" href="#">Purchase 10</a>
                                 </div>
                             </div>
-                            <a class="border-button navbarText" href="#">Purchasing tutorial</a>
                         </div>
                     </div>
                 </div>
@@ -211,15 +210,16 @@
             </div>
         </div>
     </div>
-    <div class="background-footer" id="Footer">
+    <!-- Footer section -->
+    <div class="background-footer">
         <div class="container px-3">
             <div class="col m-0 align-items-center justify-content-xl-start h-100">
                 <div class="container" style="height: 200px;"></div>
                 <img src="assets/images/GeroIcon.png" style="width: 200px; height: 200px;" alt="">
-                <div class="container" style="height: 1.5em;"></div>
+                <div class="container" style="height: 25px;"></div>
                 <p class="p-footer">Our teams urge everyone to be responsible. Please do not spend money you need for
                     bills or taking care of loved ones.<br> Please do not take out loans or borrow money to mint.</p>
-                <div class="container" style="height: 1.5em;"></div>
+                <div class="container" style="height: 25px;"></div>
                 <div class="row align-items-center justify-content-center">
                     <a href="" class="px-2">
                         <img src="assets/images/social-logos/Medium.svg" alt="">

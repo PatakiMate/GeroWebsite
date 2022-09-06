@@ -1,5 +1,4 @@
 html {
-    /*scroll-behavior: smooth;*/
     height: 100%;
     background-color: black;
 }
@@ -41,16 +40,10 @@ a:hover {
 }
 
 .bg {
-    /* The image used */
     background-color: rgb(15, 15, 15);
-    /*background-image: url("assets/background.jpg");*/
-
-    /* Full height */
     height: 100%;
     position: relative;
     text-align: center;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +60,6 @@ a:hover {
     padding-right: 10px;
 }
 
-/* Centered text */
 .centered {
     position: absolute;
     top: 50%;
@@ -111,8 +103,6 @@ a:hover {
     height: 100%;
     display: table;
     width: 100%;
-
-    /*set left/right padding according to needs*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -203,8 +193,18 @@ p {
     height: 400px;
     object-fit: contain;
 }
+
 .mobile-logo-holder {
     height: 50px;
+}
+
+.utility-image {
+    content: url("/assets/images/gero_05B.png");
+}
+
+.navbar.navbar-color {
+    background-color: black !important;
+    transition: background-color 400ms linear;
 }
 
 
@@ -226,11 +226,11 @@ p {
     }
 }
 
-/*
-@media (max-width: 1280px) {
-  
-} */
 @media (max-width: 1199.98px) {
+    .utility-image {
+        content: url("/assets/images/gero_02.png");
+    }
+
     .offcanvas-header {
         display: block;
     }
@@ -258,12 +258,10 @@ p {
         padding-right: 0px;
     }
 
-    
+
     .navbar-logo {
         height: 38.25px;
     }
-    
-    
 
     .navbar {
         height: 75px;
