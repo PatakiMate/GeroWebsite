@@ -73,32 +73,6 @@ a:hover {
     font-weight: 700;
 }
 
-@font-face {
-    font-family: azonix;
-    src: url(/assets/fonts/Azonix.otf);
-}
-
-@font-face {
-    font-family: raleway;
-    src: url(/assets/fonts/Raleway-Medium.otf);
-}
-
-@font-face {
-    font-family: raleway-medium;
-    src: url(/assets/fonts/Raleway-Light.otf);
-}
-
-@font-face {
-    font-family: rajdhani-bold;
-    src: url(/assets/fonts/Rajdhani-Bold.ttf);
-}
-
-@font-face {
-    font-family: rajdhani;
-    src: url(/assets/fonts/Rajdhani-Regular.ttf);
-}
-
-
 .container {
     height: 100%;
     display: table;
@@ -316,4 +290,13 @@ p {
         background-color: black;
         transition: visibility .2s ease-in-out, transform .2s ease-in-out;
     }
+}
+@font-face {
+    font-family: rajdhani-bold;
+    src: url(/assets/fonts/Rajdhani-Bold.ttf);
+}
+
+@font-face {
+    font-family: rajdhani;
+    src: url(/assets/fonts/Rajdhani-Regular.ttf);
 }
